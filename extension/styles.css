@@ -1,0 +1,45 @@
+#autotyper-hud {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 2147483647;
+  background: #111827;
+  color: #f9fafb;
+  padding: 10px 14px;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  font-family: system-ui, sans-serif;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid #374151;
+}
+
+#autotyper-hud .btn-row {
+  display: flex;
+  gap: 6px;
+}
+
+#autotyper-hud button {
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+#btn-calibrate { background: #3b82f6; color: white; }
+#btn-start { background: #10b981; color: white; }
+#btn-stop { background: #ef4444; color: white; }
+
+#autotyper-status {
+  font-size: 11px;
+  color: #9ca3af;
+}
+
+.autotyper-highlight {
+  outline: 3px dashed #3b82f6 !important;
+  cursor: crosshair !important;
+}
